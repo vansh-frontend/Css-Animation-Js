@@ -1,0 +1,28 @@
+body{
+    background-color: #111;
+}
+
+h1{
+    font-size: 50px;
+    color: #f8f8f8;
+    font-weight: 600;
+}
+
+h1::after{
+    content: 'join me';
+    font-size: 32px;
+    background-color: crimson;
+    margin: 10px;
+    border-radius: 35px;
+    padding: 5px 10px;
+}
+
+h1::before{
+    content: 'Follow me';
+    background-color: royalblue;
+    border: none;
+    border-radius: 35px;
+    padding:5px 10px;
+    margin: 10px;
+    font-size: 32px;
+}
